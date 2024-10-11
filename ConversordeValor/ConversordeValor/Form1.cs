@@ -12,7 +12,7 @@ namespace ConversordeValor
 {
     public partial class Form1 : Form
     {
-        //Testando GIT
+        
         public Form1()
         {
             InitializeComponent();
