@@ -20,6 +20,24 @@ namespace ConversordeValor
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //Variavel
+            decimal resultado;
+            //Verifica se os campos não estão vazios
+            if(textBox1.Text != "" && textBox2.Text != "")
+                {
+                    resultado = Convert.ToDecimal(textBox1.Text)* Convert.ToDecimal(textBox2.Text);
+                
+                  textBox1.Text = resultado.ToString();
+                // C = Converter o numero para moeda (Coin)
+                }
+            else 
+            {
+                MessageBox.Show("Digite Algo: ");            
+            }
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
 
         }
     }
